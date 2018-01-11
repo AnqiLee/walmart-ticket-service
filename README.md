@@ -81,7 +81,7 @@ The server will start on port 8080 by default.
 
 ## Overall Structure
 
-This application is build following the Model-View-Controller desing pattern. This pattern is implemented using Spring Boot annotations metadata instead of XML configurations. The aplication has 3 API to access the functionalities defined in the requirements.
+This application is build following the Model-View-Controller desing pattern. This pattern is implemented using Spring Boot annotations metadata instead of XML configurations. The aplication has 3 APIs to access the functionalities defined in the requirements.
 
 The following examples demonstrate the usage of these APIs:
 
@@ -163,7 +163,7 @@ Request Body:
 }
 ```
 
-Response body:
+Response Body:
 ```
 {
     "seatHoldId": 0,
