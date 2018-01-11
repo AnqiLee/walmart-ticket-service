@@ -58,7 +58,7 @@ org.apache.commons
 1- Clone the application
 
 ```
-https
+https://github.com/Armin-Smailzade/walmart-ticket-service.git
 ```
     
 2- Install Maven and JDK 8 and set them inside the environment variables of the system. 
