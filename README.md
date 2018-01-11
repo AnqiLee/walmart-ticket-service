@@ -8,8 +8,10 @@ This assignment is to desing and write a Ticket Service that provides the follow
 
 1- Find number of seats available within the venue.
 Note: available seats are seats that are neither held nor reserved.
+
 2- Find and hold the best available seats on behalf of a customer. 
 Note: each ticket hold should expire within a set number of seconds.
+
 3- Reserve and commit a specific group of held seats for a customer
 
 ## Requirments
