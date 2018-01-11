@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.walmart.ticketservice.ticket_service.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in com.walmart.ticketservice.ticket_service.AppTest
+warning(junit.framework.TestSuite$1)  Time elapsed: 0.002 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: No tests found in com.walmart.ticketservice.ticket_service.AppTest
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
+

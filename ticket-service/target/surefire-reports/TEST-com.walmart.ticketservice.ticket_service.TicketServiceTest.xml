@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.walmart.ticketservice.ticket_service.TicketServiceTest" time="0.928" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="9.0.1+11"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Test\Desktop\ticket-service"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Test\Desktop\ticket-service"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Test\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-9.0.1\bin;c:\Rtools\bin;c:\Rtools\mingw_32\bin;C:\Program Files\Broadcom\Broadcom 802.11;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\File Viewer Lite\lib\magick;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\apache-ant-1.9.6\bin;C:\curl-7.48.0-win64-mingw\\bin;C:\sqlite;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\php;C:\Apache24;C:\Apache24\bin;%JUNIT_HOME%;C:\Users\Test\Downloads\Software\phantomjs-2.1.1-windows\phantomjs-2.1.1-windows\bin;C:\Program Files\R\R-3.3.1\;armin.esmaeilzadeh@outlook.com;C:\Python34;C:\Python34\Scripts;C:\Python34\Scripts;C:\maven\bin;c:\users\test\documents\user\scripts;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\Test\Documents\User;C:\Users\Test\Documents\User\Scripts;C:\commons-logging-1.2;C:\Users\Test\AppData\Local\Microsoft\WindowsApps;C:\Users\Test\AppData\Local\rodeo\app-2.5.2\bin;;."/>
+    <property name="maven.conf" value="C:\maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Test"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="user.name" value="Test"/>
+    <property name="java.class.path" value="C:\maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="9.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testReserveSeatsTrue" classname="com.walmart.ticketservice.ticket_service.TicketServiceTest" time="0.924"/>
+  <testcase name="testFindAndHoldSeatsSaveEmail" classname="com.walmart.ticketservice.ticket_service.TicketServiceTest" time="0.002"/>
+  <testcase name="testNumSeatsAvailableByRow" classname="com.walmart.ticketservice.ticket_service.TicketServiceTest" time="0"/>
+  <testcase name="testFindAndHoldSeatsReturnEmail" classname="com.walmart.ticketservice.ticket_service.TicketServiceTest" time="0.002"/>
+  <testcase name="testReserveSeatsEmailNotValidException" classname="com.walmart.ticketservice.ticket_service.TicketServiceTest" time="0"/>
+  <testcase name="testNumSeatsAvailable" classname="com.walmart.ticketservice.ticket_service.TicketServiceTest" time="0"/>
+  <testcase name="testReserveSeatsSeatHoldIdException" classname="com.walmart.ticketservice.ticket_service.TicketServiceTest" time="0"/>
+</testsuite>
