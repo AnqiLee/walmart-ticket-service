@@ -12,13 +12,13 @@ Note: available seats are seats that are neither held nor reserved.
 2- Find and hold the best available seats on behalf of a customer. 
 Note: each ticket hold should expire within a set number of seconds.
 
-3- Reserve and commit a specific group of held seats for a customer
+3- Reserve and commit a specific group of held seats for a customer.
 
 ## Requirments
 ---
 
-- Project should be written in java
-- Maven or Gradle should be used as the build tools
+- Project should be written in java.
+- Maven or Gradle should be used as the build tools.
 - Implementation of disk-based storage, a REST API and front-end GUI are not required.
 
 ## Assumptions
@@ -58,7 +58,7 @@ org.apache.commons
 
 ## Building the project
 
-1- Clone the application
+1- Clone the application.
 
 ```
 https://github.com/Armin-Smailzade/walmart-ticket-service.git
@@ -152,7 +152,7 @@ Response Body:
 }
 ```
 
-3- Reserve and commit a specific group of held seats for a customer
+3- Reserve and commit a specific group of held seats for a customer.
 
 ```
 POST - http://localhost:8080/ticketservice/reserve
