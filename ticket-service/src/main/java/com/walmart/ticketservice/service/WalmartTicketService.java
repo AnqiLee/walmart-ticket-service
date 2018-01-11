@@ -48,10 +48,10 @@ public class WalmartTicketService implements TicketService{
 	}
 	
 	public int numSeatsAvailableByRow(char row) {
-		LOGGER.debug("Finding number of available seats.");
+		LOGGER.debug("Finding number of available seats by row.");
 		walmartTicketServiceDao.removeExpiredSeats();
 		final int availableSeats = walmartTicketServiceDao.findAvailableSeatsByRow(row);
-		LOGGER.debug("Number of available seats are {}.", availableSeats);
+		LOGGER.debug("Number of available seats for row {} is {}.", row, availableSeats);
 		return availableSeats;
 	}
 	
