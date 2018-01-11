@@ -28,6 +28,7 @@ Note: each ticket hold should expire within a set number of seconds.
 - Seats in each row will be assigned to customer based on availablity and there will be no number assigned to each seat. So customers will take seats in a first come first order manner in each row. 
 - If the number of available seats are less than the number of seats requested, the application will take those available seats and will put them on hold for customer.
 - SeatHolds will expure in 120 seconds and seats will be added back to their rows.
+- There are 8 rows, from 'A' to 'I', each containing 20 seats. 
 
 ## Environment
 ---
